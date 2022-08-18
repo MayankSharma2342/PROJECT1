@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>www.signup.com</title>
+    <style>
+        body{
+
+margin: 0px;
+background-color:rgb(56 184 191 / 84%);
+background-image: url(./images/backgroung.png);
+}
+
+body {
+
+margin: 0px;
+background-color: rgb(56 184 191 / 84%);
+
+}
+
+.menu{
+width: 100%;
+height: 45px;
+position: fixed;
+top: 0;
+background-color: rgb(255 67 67);
+}
+
+.menu1{
+display: inline-block;
+
+width: 19%;
+}
+.left-float{
+float: left;
+width: 10%;
+margin-left: 20px;
+margin-top: 0px;
+height: 72%;
+
+text-align: center;
+padding-top: 12px;
+font-size: 21px;
+}
+
+.right-float{
+float: right;
+}
+
+.right-float button{
+height: 35px;
+width: 100px;
+background-color: purple;
+color: white;
+border: 2px solid white;
+border-radius: 1px;
+margin-left: 100px;
+margin-top: 5px;
+
+}
+
+.title {
+
+width: 100%;
+height: 150px;
+
+background-color: black;
+text-align: center;
+font-size: 115px;
+font-family: fantasy;
+
+color:#af5252;
+margin-top: 45px;
+text-shadow: 2px 1px rgb(108, 180, 14);
+
+
+}
+
+.leg{
+    height: 550px;
+    width: 35%;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 63px;
+    background-color: rgb(51 117 127 / 46%);
+    padding-left: 2%;
+    text-shadow: 1px 1px white;
+}
+.contact{
+    width: 100%;
+    height: 15%;
+    
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+}
+.email{
+    width: 100%;
+    height: 14%;
+    
+    
+}
+
+.lb{
+    display: inline;
+    width: 100%;
+    height: 50%;
+    text-align: left;
+    font-size: 25px;
+   
+
+}
+.ip{
+  display: inline;
+    width: 50%;
+    height: 40%;
+    text-align: center;
+    
+
+}
+.tx{
+    margin-top: -10px;
+    height: 45%;
+    width: 80%;
+    text-align: center;
+}
+.submit{
+    margin-top: -5%;
+    margin-left: 38%;
+    display: inline;
+    width: 100px;
+    height: 40px;
+}
+#login{
+            display: block;
+            text-align: center;
+        }
+
+        .footer {
+            height: 200px;
+            width: 100%;
+            border: 1px solid black;
+            background-color: black;
+            margin-top: 75px;
+        }
+
+        .name {
+            height: 100%;
+            width: 50%;
+
+            color: gray;
+            text-align: center;
+            font-size: 40px;
+
+            float: left;
+        }
+
+        .name h1 {
+            margin: 0px;
+        }
+
+        .name2 {
+            height: 100%;
+            width: 50%;
+
+            float: right;
+
+        }
+
+        .link {
+            height: 25%;
+            width: 100%;
+
+            color: white;
+            font-size: 20px;
+            text-align: justify;
+
+
+        }
+
+        .link1 {
+            height: 100%;
+            width: 33%;
+
+            color: white;
+            float: left;
+
+        }
+
+        .follow {
+            height: 100%;
+            width: 25%;
+
+            color: white;
+            float: left;
+        }
+
+        .followicon {
+            height: 100%;
+            width: 25%;
+
+            color: white;
+            float: left;
+
+        }
+
+        .followicon img {
+            width: 60%;
+            height: 60%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu1 left-float " onclick="location.href='./home.html'">HOME</div>
+        <div class="menu1 left-float" onclick="location.href='./category.html'">CATEGORY</div>
+        <div class="menu1 left-float" onclick="location.href='./aboutus.html'">ABOUT US </div>
+        <div class="menu1 left-float" onclick="location.href='./demo.html'">DEMO </div>
+        <div class="menu1 left-float " onclick="location.href='./feedback.html'">FEEDBACK</div>
+        <div class="menu1 right-float" onclick="location.href='./login.html'"><button>Login/Signup</button></div>
+       </div>
+        <div class="title">
+    
+        
+        
+            📱ATTRI ELECTRONICS📺
+    
+        
+        
+    
+        </div> 
+        
+        <div class="leg">
+            <div class="contact ">
+               Signup
+    
+            </div>
+           
+          <div class="email" >
+              <label class="lb"> FIRST NAME:</label>
+               <input class="ip" type="text" placeholder="enter your first name" required> </div>
+                
+    
+        
+            <div class="email" >
+                <label class="lb">LAST NAME:</label>
+                <input class="ip" type="text" placeholder="enter your Last name" required>
+                
+    
+            </div>
+            <div class="email" >
+            
+                <label class="lb"> CONTACT:   </label>
+                <input class="ip" type="number" placeholder="enter your contact"  maxlength="10" required>
+                
+    
+            </div>
+    
+            <div class="email" >
+                <label class="lb"> EMAIL ID:</label>
+                <input class="ip" type="email" placeholder="enter your email" required>
+                
+    
+            </div>
+            <div class="email" >
+                <label class="lb"> PASSWORD:</label>
+                <input class="ip" type="password" placeholder="enter your password" required>
+                
+    
+               </div>
+        
+    
+            <button  class="submit" type="submit" onclick="submit()">SUBMIT </button>
+            
+            <script>
+                function submit(){
+                    window.open("./home.html" ,target="_self" );
+                    window.alert("SUCCESFULLY SIGNUP");
+                  
+                    
+                }
+            </script>
+ <p id="login">already have an account? <a href="./login.html ">LOGIN</a></p>
+
+        </div>
+
+
+        <div class="footer">
+            <div class="name">
+                <h1> ATTRI ELECTRONICS</h1>
+            </div>
+            <div class="name2">
+                <div class="link">
+                    CONTACT WITH US: 0022252265
+                    </br>
+    
+    
+    
+    
+                </div>
+                <div class="link">
+                    Stay in touch with us, get product updates, offers, discounts directly to your inbox
+    
+                </div>
+                <div class="link">
+                    <div class="link1">
+                        Free Shipping & Returns
+                    </div>
+                    <div class="link1">
+                        Secure Payments
+                    </div>
+                    <div class="link1">
+                        Attractive Exchange Offers
+                    </div>
+    
+                </div>
+                <div class="link">
+                    <div class="follow">
+                        follow us on:
+                    </div>
+                    <div class="followicon">
+                        <img class="foicon" src="./images/or1.png">
+                    </div>
+                    <div class="followicon">
+                        <img class="foicon" src="./images/or2.png">
+                    </div>
+                    <div class="followicon">
+                        <img class="foicon" src="./images/or3.png">
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+</body>
+</html>

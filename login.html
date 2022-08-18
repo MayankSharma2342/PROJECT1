@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login.com</title>
+    <style>
+        body {
+            margin: 0px;
+            background-color: rgb(11 116 114 / 84%);
+            background-image: url("./images/backgrouund.jpg");
+
+
+        }
+
+        .menu{
+        width: 100%;
+        height: 45px;
+        position: fixed;
+        top: 0;
+        background-color: rgb(255 67 67);
+       }
+
+       .menu1{
+        display: inline-block;
+        
+        width: 19%;
+       }
+       .left-float{
+        float: left;
+        width: 10%;
+        margin-left: 20px;
+        margin-top: 0px;
+        height: 72%;
+        
+        text-align: center;
+        padding-top: 12px;
+        font-size: 21px;
+    }
+    .selected{
+        
+        background-color: rgb(80, 32, 32);
+        color: white;
+       }
+       .right-float{
+        float: right;
+       }
+
+       .right-float button{
+        height: 35px;
+        width: 100px;
+        background-color: purple;
+        color: white;
+        border: 2px solid white;
+        border-radius: 1px;
+        margin-left: 100px;
+        margin-top: 5px;
+
+       }
+
+        .title {
+
+            width: 100%;
+            height: 150px;
+            
+            background-color: black;
+           text-align: center;
+           font-size: 115px;
+           font-family: fantasy;
+           
+           color:#af5252;
+           margin-top: 45px;
+           text-shadow: 2px 1px rgb(108, 180, 14);
+
+
+        }
+
+
+        .leg {
+            height: 500px;
+            width: 30%;
+            border: 4px solid black;
+            margin-top: 60px;
+            margin-left: 500px;
+            background-color: transparent;
+
+
+
+
+        }
+
+        .ltitle {
+            width: 100%;
+            height: 100px;
+
+            text-align: center;
+            font-size: 80px;
+
+            color: black;
+            text-decoration: underline;
+
+        }
+
+        .email {
+            width: 100%;
+            height: 100px;
+
+
+
+        }
+
+        .loginbutton {
+            width: 100%;
+            height: 50px;
+
+
+        }
+
+        .or {
+
+            width: 100%;
+            height: 50px;
+            text-align: center;
+
+            font-size: 35px;
+            color: black
+        }
+
+
+
+
+
+
+
+
+        .or2 {
+            width: 20%;
+            height: 50px;
+
+            display: inline-block;
+            margin-left: 90px;
+            /* float: left; */
+
+
+        }
+
+        .or2 img {
+            width: 100%;
+            height: 100%;
+
+
+        }
+
+        #signup{
+            display: block;
+            text-align: center;
+            
+        }
+
+        .lbutton {
+            height: 100%;
+            width: 100px;
+            margin-left: 40%;
+            background-color: #FFC312;
+            text-align: center;
+            font-size: 25px;
+
+        }
+
+        .lbutton:hover {
+            background-color: rgba(94, 12, 67, 0.319);
+
+        }
+
+        .icon {
+            height: 100%;
+            width: 25%;
+
+        }
+
+        .img {
+            height: 80%;
+            width: 25%;
+
+            float: left;
+        }
+
+        .inputfield {
+            height: 100%;
+            width: 74%;
+            float: right;
+            text-align: center;
+
+
+        }
+
+        .inputfield1 {
+            color: black;
+            width: 80%;
+            height: 50%;
+            font-size: 80%;
+
+            background-color: white;
+            padding-left:10px;
+
+        }
+
+        .icon {
+            width: 70%;
+            height: 70%;
+            margin-bottom: 8px;
+            padding-left: 30px;
+        }
+
+        .footer {
+            height: 200px;
+            width: 100%;
+            border: 1px solid black;
+            background-color: black;
+            margin-top: 75px;
+        }
+
+        .name {
+            height: 100%;
+            width: 50%;
+
+            color: gray;
+            text-align: center;
+            font-size: 40px;
+
+            float: left;
+        }
+
+        .name h1 {
+            margin: 0px;
+        }
+
+        .name2 {
+            height: 100%;
+            width: 50%;
+
+            float: right;
+
+        }
+
+        .link {
+            height: 25%;
+            width: 100%;
+
+            color: white;
+            font-size: 20px;
+            text-align: justify;
+
+
+        }
+
+        .link1 {
+            height: 100%;
+            width: 33%;
+
+            color: white;
+            float: left;
+
+        }
+
+        .follow {
+            height: 100%;
+            width: 25%;
+
+            color: white;
+            float: left;
+        }
+
+        .followicon {
+            height: 100%;
+            width: 25%;
+
+            color: white;
+            float: left;
+
+        }
+
+        .followicon img {
+            width: 60%;
+            height: 60%;
+        }
+        .end{
+            margin-top: 56px;
+            margin-left:10px ;
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+<form>
+    <div class="menu">
+        <div class="menu1 left-float " onclick="location.href='./home.html'">HOME</div>
+        <div class="menu1 left-float " onclick="location.href='./category.html'">CATEGORY</div>
+        <div class="menu1 left-float" onclick="location.href='./aboutus.html'">ABOUT US </div>
+        <div class="menu1 left-float" onclick="location.href='./demo.html'">DEMO </div>
+        <div class="menu1 left-float " onclick="location.href='./feedback.html'">FEEDBACK</div>
+        <div class="menu1 right-float " onclick="location.href='./login.html'"><button>Login/SignUp</button></div>
+       </div>
+        <div class="title">
+    
+        
+        
+            📱ATTRI ELECTRONICS📺
+    
+        
+        
+    
+        </div>
+    <div class="leg">
+        <div class="ltitle"> login
+
+        </div>
+
+        <div class="email">
+
+
+            <div class="img">
+                <img class="icon" src="./images/email11.png">
+
+
+            </div>
+            <div class="inputfield">
+                <input class=" inputfield1" type="email" placeholder="ENTER YOUR EMAIL ID:" name="email" required>
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="email">
+
+
+            <div class="img">
+                <img class="icon" src="./images/password.png">
+
+
+            </div>
+            <div class="inputfield">
+                <input class=" inputfield1" type="password" placeholder="ENTER YOUR PASSWORD" name="password" required>
+
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="loginbutton">
+            <button class="lbutton" type="submit" value="LOGIN" onclick="LOGGED()"> LOGIN
+
+            </button>
+            <script>
+                function LOGGED(){
+                    window.open("./home.html" ,target="_self" );
+                    window.alert("SUCCESFULLY LOGGED IN");
+                  
+                    
+                }
+            </script>
+
+        </div>
+
+        <div class="or">
+            OR Login Using:
+        </div>
+        <div class="or2">
+            <a class="aicon" href="" target="_blank"> <img src="./images/or1.png"></a>
+        </div>
+        <div class="or2">
+            <a href="" target="_blank"> <img src="./images/or2.png"></a>
+        </div>
+
+        <p id="signup">Not have an account? <a href="./signup.html ">SIGNUP</a></p>
+          
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="name">
+            <h1> ATTRI ELECTRONICS</h1>
+        </div>
+        <div class="name2">
+            <div class="link">
+                CONTACT WITH US: 0022252265
+                </br>
+
+
+
+
+            </div>
+            <div class="link">
+                Stay in touch with us, get product updates, offers, discounts directly to your inbox
+
+            </div>
+            <div class="link">
+                <div class="link1">
+                    Free Shipping & Returns
+                </div>
+                <div class="link1">
+                    Secure Payments
+                </div>
+                <div class="link1">
+                    Attractive Exchange Offers
+                </div>
+
+            </div>
+            <div class="link">
+                <div class="follow">
+                    follow us on:
+                </div>
+                <div class="followicon">
+                    <img class="foicon" src="./images/or1.png">
+                </div>
+                <div class="followicon">
+                    <img class="foicon" src="./images/or2.png">
+                </div>
+                <div class="followicon">
+                    <img class="foicon" src="./images/or3.png">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+</form>
+</body>
+
+</html>
